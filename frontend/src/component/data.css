@@ -1,0 +1,52 @@
+.data-container {
+    padding: 1vh 2vw;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    height: 92vh;
+}
+button#back-button {
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-size: larger;
+    background-color: white;
+}
+
+.d {
+    padding: 2vw 2.5vh;
+}
+.data-word {
+    font-size: xx-large;
+    margin-top: 6vh;
+    border-top: 1px solid whitesmoke;
+    font-weight: 400;
+    border-bottom: 2px solid whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data-type {font-style: italic;margin-top: 5px;font-size: small;color: gray;}
+
+.data-defination {
+    color: gray;
+    font-size: smaller;
+    margin-top: 6px;
+}
+
+.data-details {
+    font-size: small;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.data-shortDefinitions {
+    font-size: small;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.data-syn {
+    font-size: small;
+    font-weight: bold;
+    margin-top: 7px;
+}

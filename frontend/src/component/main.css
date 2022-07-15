@@ -1,0 +1,108 @@
+div#vocab-heading {
+    background-color: purple;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#vocab {
+    color: white;
+}
+div#sub-container {
+    background-color: white;
+    border-radius: 10px;
+    height: 89vh;
+    font-family: 'Poppins', sans-serif;
+}
+.cards {
+    border-top: 2px solid whitesmoke;
+    scroll-behavior: smooth;
+    /* overflow-y: scroll; */
+    overflow: auto;
+    height: 80vh;
+}
+.count {
+    overflow-y: scroll;
+    height: 76vh;
+}
+#button-add {
+    background-color: purple;
+    border-radius: 50%;
+    position: fixed;
+    border: 2px solid white;
+    height: 40px;
+    font-size: 29px;
+    text-align-last: center;
+    color: white;
+    width: 40px;
+    top: 88vh;
+    left: 85vw;
+}
+
+.card {
+    border-top: 3px solid whitesmoke;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+div#words-list {
+    padding: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid whitesmoke;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    /* color: white; */
+    height: 3vh;
+    cursor: pointer;
+    /* opacity: 1.2; */
+    margin: 12px 20px 0px 0px;
+}
+div#vocab {
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 1vh;
+    height: 7vh;
+}
+
+.word-con {
+    font-size: larger;
+    font-weight: 600;
+}
+.detail-con {
+    font-size: small;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.serach-div {
+    display: flex;
+    padding: 6.5px 10px;
+    justify-content: space-between;
+    height: 30px;
+}
+
+input.serach-input {
+    background-color: purple;
+    color: white;
+    border-bottom: 1px solid;
+    height: 30px;
+    border: none;
+}
+
+button.cross {
+    border: none;
+    background-color: purple;
+   
+    font-size: 28px;
+    height: 30px;
+    
+    color: white;
+}
+input.serach-input:focus {
+    outline: 1px solid purple;
+}
