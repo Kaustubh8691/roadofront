@@ -15,7 +15,7 @@ const Card = ({obj,setData1}) => {
   return (
     <div className="card" onClick={()=>handleClick(wordData)} >
       <div className="word-con">{wordData.Word}</div>
-    <div className="detail-con">({wordData.type}) {wordData.defination}</div>
+      <div className="detail-con">({wordData.type}) {wordData.defination}</div>
         </div>
   )
 }

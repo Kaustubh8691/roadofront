@@ -26,8 +26,7 @@ const Data = ({data1}) => {
                     if(!str1.includes(data1.synonyms[i].text) ){
                         str1+="   "+(i+1)+") "+data1.synonyms[i].text+" . ";
                         // console.log(data1.synonyms[i].text);
-                    }
-                   
+                    } 
                 }
             }
             setSynonyms(str1);
@@ -52,20 +51,16 @@ const Data = ({data1}) => {
   return (
     <div className='data-container'>
         <button id='back-button' onClick={()=>{handleButton()}}>x</button>
-    <div className='data-word'>{data1.Word}</div>
-    <div className='data-type'>{data1.type}</div>
-    <div className='data-defination'>{data1.defination} .</div>
-    
-    <div className='data-details'>Examples: {examp}</div>
-    <div className='data-shortDefinitions'>Short Definition :{data1.shortDefinitions} .</div>
-    <div className='data-syn'> Synonyms: <div className='d'>{synonyms}</div></div>
-    {
-    data1.synonyms.forEach((obj,index) => {
-        <div >{obj}</div>
-        
-    })
-    }
-    </div>
+        <div className='data-word'>{data1.Word}</div>
+        <div className='data-type'>{data1.type}</div>
+        <div className='data-defination'>{data1.defination} .</div>
+        <div className='data-details'>Examples: {examp}</div>
+        <div className='data-shortDefinitions'>Short Definition :{data1.shortDefinitions} .</div>
+        <div className='data-syn'> Synonyms: <div className='d'>{synonyms}</div></div>
+        {
+        data1.synonyms.forEach((obj,index) => {
+            <div >{obj}</div>})}
+        </div>
   )
 }
 
